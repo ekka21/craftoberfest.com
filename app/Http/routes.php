@@ -5,7 +5,8 @@ Route::get('/', function () {
 Route::get('thankyou', function(){
     return view('thankyou');
 });
-Route::resource('participate', 'ApplyController');
+Route::get('participate', 'ApplyController@index');
+Route::resource('apply', 'ApplyController');
 
 Route::auth();
 
