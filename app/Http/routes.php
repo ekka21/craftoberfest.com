@@ -5,7 +5,7 @@ Route::get('/', function () {
 Route::get('thankyou', function(){
     return view('thankyou');
 });
-Route::resource('apply', 'ApplyController');
+Route::resource('participate', 'ApplyController');
 
 Route::auth();
 
