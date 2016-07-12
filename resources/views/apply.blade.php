@@ -128,7 +128,36 @@
                     @endif
                 </div>
             </div>
-
+            <div class="row">
+            <div class="col-xs-12 form-group <?php if ($errors->has('booth_pref')) print 'has-error';?>">
+                    {!! Form::label('booth_pref', '*Please indicate your booth preference' , ['class' => 'control-label']) !!}
+                    <select name="booth_pref" class="form-control">
+                        <option value="">Please select one</option>
+                        <option value="No Preference">I have no preference</option>
+                        <option value="Standard Booth">Standard Booth (6 ft table space) – $70</option>
+                        <option value="Premium Booth">Premium Booth (10x10 tent space) – $85</option>
+                    </select>
+                    <p class="help-block"></p>
+                    @if($errors->has('booth_pref'))
+                        <p class="help-block">
+                            {{ $errors->first('prod_pref') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-xs-12 form-group <?php if ($errors->has('paypal_email')) print 'has-error';?>">
+                    {!! Form::label('paypal_email', '*PayPal email address', ['class' => 'control-label']) !!}
+                    <br>If accepted, you will receive a PayPal invoice for your vendor fee.
+                    {!! Form::text('paypal_email', old('paypal_email'), ['class' => 'form-control']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('paypal_email'))
+                        <p class="help-block">
+                            {{ $errors->first('paypal_email') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
         </div>
     </div>
 

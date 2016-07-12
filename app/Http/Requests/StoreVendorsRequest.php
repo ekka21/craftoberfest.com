@@ -26,8 +26,10 @@ class StoreVendorsRequest extends Request
             'full_name' => 'required',
             'biz_name' => 'required',
             'website_1' => 'required',
-            'email' => 'required',
+            'email' => 'required|email',
             'prod_desc' => 'required',
+            'booth_pref' => 'required',
+            'paypal_email' => 'required|email',
 
         ];
     }

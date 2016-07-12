@@ -23,6 +23,8 @@ class CreateVendorsTable extends Migration
             $table->string("twitter");
             $table->string("instagram");
             $table->text("prod_desc");
+            $table->text("booth_pref");
+            $table->text("paypal_email");
 
             $table->timestamps();
             $table->softDeletes();

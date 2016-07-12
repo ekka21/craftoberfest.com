@@ -22,8 +22,9 @@
                     <th>Facebook</th>
                     <th>Twitter</th>
                     <th>Instagram</th>
-                    <th>Product Description</th>
-                    
+                    <th>Paypal</th>
+                    <th>Booth</th>
+
                         <th>&nbsp;</th>
                     </tr>
                     </thead>
@@ -38,8 +39,9 @@
                         <td>{{ $vendor->facebook }}</td>
                         <td>{{ $vendor->Twitter }}</td>
                         <td>{{ $vendor->instagram }}</td>
-                        <td>{!! $vendor->prod_desc !!}</td>
-                        
+                        <td>{{ $vendor->paypal_email}}</td>
+                        <td>{{ $vendor->booth_pref }}</td>
+
                             <td>
                                 <a href="{{ route('vendors.edit',[$vendor->id]) }}" class="btn btn-xs btn-info">Edit</a>
                                 {!! Form::open(array(
