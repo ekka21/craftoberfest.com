@@ -35,7 +35,7 @@
                 <div class="col-xs-12">
                     <h1>Craftoberfest 2016<h1>
                     <p>Vendor application</p>
-                    <p>This's year night market will be Thursday October 13th, 2016 from 5-10PM at Urbun Chestnut Brewing Company(Midtown) in St. Louis, MO.</p>
+                    <p>This's year night market will be Thursday October 13th, 2016 from 5-10PM at Urbun Chestnut Brewing Company (Midtown) in St. Louis, MO.</p>
                 </div>
             </div>
         <div class="panel-body">
