@@ -33,8 +33,7 @@
     <div class="panel panel-default">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>Craftoberfest 2016</h1>
-                    <p>Vendor Application</p>
+                    <h1>Craftoberfest 2016 Vendor Application</h1>
                     <p>This year's night market will be Thursday, October 13th, 2016 from 5-10PM at Urban Chestnut Brewing Company (Midtown) in St. Louis, Missouri.</p>
                 </div>
             </div>
