@@ -31,14 +31,14 @@
     {!! Form::open(['method' => 'POST', 'route' => ['apply.store']]) !!}
 
     <div class="panel panel-default">
-        <div class="panel-body">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2>Craftoberfest 2016<h1>
+                    <h1>Craftoberfest 2016<h1>
                     <p>Vendor application</p>
-                    <p>This year night market will be Thursday October 13th, 2016 from 5PM to 10PM at Urbun Chestnut Brewing Company(Midtown) in St. Louis, MO.</p>
+                    <p>This's year night market will be Thursday October 13th, 2016 from 5-10PM at Urbun Chestnut Brewing Company(Midtown) in St. Louis, MO.</p>
                 </div>
             </div>
+        <div class="panel-body">
             <div class="row">
             <div class="col-xs-12 form-group <?php if ($errors->has('full_name')) print 'has-error';?>">
                     {!! Form::label('full_name', '*Full Name', ['class' => 'control-label']) !!}
