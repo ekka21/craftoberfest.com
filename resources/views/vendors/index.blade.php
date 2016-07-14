@@ -33,9 +33,9 @@
                         <tr>
                             <td>{{ $vendor->full_name }}</td>
                         <td>{{ $vendor->biz_name }}</td>
-                        <td>{{ $vendor->email }}</td>
-                        <td>{{ $vendor->website_1 }}</td>
-                        <td>{{ $vendor->website_2 }}</td>
+                        <td><a href="mailto:{{ $vendor->email }}" target="_blank">{{ $vendor->email }}</a></td>
+                        <td><a href="{{ $vendor->website_1 }}" target="_blank">{{ $vendor->website_1 }}</a></td>
+                        <td><a href="{{ $vendor->website_2 }}" target="_blank">{{ $vendor->website_2 }}</a></td>
                         <td>{{ $vendor->facebook }}</td>
                         <td>{{ $vendor->Twitter }}</td>
                         <td>{{ $vendor->instagram }}</td>
