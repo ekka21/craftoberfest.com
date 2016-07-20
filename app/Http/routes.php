@@ -8,11 +8,22 @@ Route::get('thankyou', function(){
 Route::get('participate', 'ApplyController@index');
 Route::resource('apply', 'ApplyController');
 
+Route::get('about', function(){
+	return  view('about');
+});
+
+Route::get('vendors', function(){
+	return  view('vendors');
+});
+
+
+
+
 Route::auth();
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/home', 'HomeController@index');
 
-    Route::resource('vendors', 'VendorsController');
+    Route::resource('admin/vendors', 'VendorsController');
 
 });
