@@ -28,7 +28,7 @@
 <div class="navMobile">
 <ul>
 <li><a href="/about">About</a></li>
-<li><a href="/vendors">Vendors</a></li>
+<li><a href="/2015-vendors">Vendors</a></li>
 <li><a href="/participate">Participate</a></li>
 <li><a href="craftoberfest2015@gmail.com">Contact</a></li>
 </ul>
