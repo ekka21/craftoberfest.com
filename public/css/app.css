@@ -6006,12 +6006,12 @@ button.close {
   font-style: normal; }
 
 body {
-  background: #083b55 url("../images/bk.jpg") repeat;
+  background: #fbaf95 url("../images/texture2.png") top center no-repeat;
   font-family: 'hardwick_wfregular';
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 2px;
-  color: #f68e63; }
+  color: #212b3f; }
 
 a {
   color: #a0cbb2;
@@ -6092,10 +6092,10 @@ a:visited {
       width: 90%; } }
   @media (min-width: 46.25em) {
     .logo {
-      width: 32%; } }
+      width: 55%; } }
   @media (min-width: 100em) {
     .logo {
-      width: 32%; } }
+      width: 40%; } }
 
 .indie {
   padding-top: 15px; }
