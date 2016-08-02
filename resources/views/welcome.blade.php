@@ -18,7 +18,6 @@
 	<ul class="main_menu">
 		<li><a href="/about">About</a></li>
 		<li><a href="/2016-vendors">Vendors</a></li>
-		<li><a href="/participate">Participate</a></li>
 		<li><a href="mailto:craftoberfest2016@gmail.com">Contact</a></li>
 	</ul>
 	<p><img class="handmade" src="images/craft_beer_craft_goods.svg" alt=""/></p>

@@ -5,7 +5,10 @@ Route::get('/', function () {
 Route::get('thankyou', function(){
     return view('thankyou');
 });
-Route::get('participate', 'ApplyController@index');
+Route::get('participate', function(){
+	return redirect('/');
+});
+Route::get('RK2ypdP8', 'ApplyController@index');
 Route::resource('apply', 'ApplyController');
 
 Route::get('about', function(){
@@ -13,6 +16,10 @@ Route::get('about', function(){
 });
 
 Route::get('2015-vendors', function(){
+	return  view('vendors');
+});
+
+Route::get('2016-vendors', function(){
 	return  view('vendors');
 });
 

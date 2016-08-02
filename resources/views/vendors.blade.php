@@ -2,8 +2,8 @@
 
 @section('content')
     <div class="content vendor" style="text-align: center;">
-	<h2>Vendors</h2>
-      <p>2016 vendors will be announced in August</p>
+	
+      <p style="font-size: 26px;margin-top: 300px;">2016 vendor roster coming soon!</p>
         <!-- <ul class="list">
             <li>Made Supply Co.</li>
             <li>Enamel</li>
