@@ -34,3 +34,39 @@ Route::group(['middleware' => 'auth'], function () {
     Route::resource('vendors', 'VendorsController');
 
 });
+
+
+Route::get('vendor-contract', function(){
+    return view('vendorContract');
+});
+
+use Illuminate\Http\Request;
+
+Route::post('vendor-contract', function(Request $request){
+
+
+    // dd($request->all());
+     $rules = [
+         'business_name'           => 'required',
+         'name'                    => 'required',
+         'email'                   => 'required|email',
+         'phone_number'            => 'required',
+         'loss_prevention'         => 'required',
+         'tax_responsibility'      => 'required',
+         'remain_responsibility' => 'required',
+         'outdoors_understanding'  => 'required',
+         'tables_responsibility'   => 'required',
+
+    ];
+
+    $validator = Validator::make($request->all(), $rules);
+
+    if ($validator->fails())
+    {   
+        return redirect()->back()->withInput()->withErrors($validator);
+    }
+
+    App\vendorContract::create($request->all()); 
+    
+    return view('vendorContract-thankyou');
+});
