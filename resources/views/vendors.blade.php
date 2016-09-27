@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="content vendor" style="text-align: center;">
-	
+
       <p style="font-size: 26px;margin-top: 40px;">Meet our 2016 Makers!</p>
       <p style="border-top: 1px solid #000;
     padding: 0;
@@ -21,9 +21,9 @@
 <li>Cristin Rae</li>
 <li>Dead Wax</li>
 <li>Enamel </li>
-<li>Fable & Lore</li>
+<li>Fable &amp; Lore</li>
 <li>Faire Acres</li>
-<li>Flowers & Weeds</li>
+<li>Flowers &amp; Weeds</li>
 <li>Julia With Love</li>
 <li>Julie Hill Drawings</li>
 <li>Lark Skin Co.</li>
@@ -41,12 +41,14 @@
 <li>South City Studio</li>
 <li>Sprouted Designs</li>
 <li>Twinkle Brews</li>
+<li>Type Hike</li>
 <li>Unnatural Resources</li>
 <li>VICTROLA</li>
 <li>Villa Design</li>
 <li>Village Botanicals</li>
 <li>Wang Dang Doodle Press</li>
 <li>West Park Creative</li>
+<li>Whisk: A Sustainable Bakeshop</li>
 </ul>
         <!-- <ul class="list">
             <li>Made Supply Co.</li>
