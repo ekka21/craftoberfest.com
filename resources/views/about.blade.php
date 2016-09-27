@@ -10,7 +10,7 @@
     	<p style="font-size: 26px;margin-top: 50px;">Modern Handcrafted Goods</p>
 
     	<p style="font-size: 18px;margin-bottom: 50px;">
-    		By 35+ Local maker
+    		By 35+ Local makers
     	</p>
 
         <p style="font-size: 26px;">
