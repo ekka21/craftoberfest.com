@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:locale" content="en_US"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Craftoberfest 2015"/>
+<meta property="og:title" content="Craftoberfest 2016"/>
 <meta property="og:description" content="St. Louis' first lantern-lit night market featuring local craft beer, live music, and the very best handmade and vintage goods in our fair city."/>
 <meta property="og:url" content="http://craftoberfest.com"/>
 <meta property="og:site_name" content="Craftoberfest"/>
