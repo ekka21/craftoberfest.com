@@ -1,4 +1,4 @@
 d: deploy
 
 deploy:
-	ssh do "cd /var/www/domains/craftoberfest2016 && git fetch && git reset --hard origin/master"
+	ssh -i ~/.ssh/aws/personal/vpc.pem ubuntu@craftoberfestcom 'cd /var/www/domains/craftoberfest.com && git fetch && git reset --hard origin/master'

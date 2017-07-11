@@ -155,7 +155,7 @@
                 <div class="col-xs-12 form-group">
                   <label for="">Please add <a href="mailtoL craftoberfestnightmarker">craftoberfestnightmarket@gmail.com</a> to your contact list now so you don't miss any important announcements!</label>
                   <br>
-                  <input type="checkbox" id="addEmail" name="add_email"> Ok, did it!
+                  <input type="checkbox" id="addEmail" name="add_email" value="yes"> Ok, did it!
                 </div>
             </div>
         </div>
