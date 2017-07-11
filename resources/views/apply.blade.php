@@ -33,8 +33,8 @@
     <div class="panel panel-default">
             <div class="row" style="padding: 0 15px;">
                 <div class="col-xs-12">
-                    <h1>Craftoberfest 2016 Vendor Application</h1>
-                    <p>This year's night market will be Thursday, October 13th, 2016 from 5-10PM at Urban Chestnut Brewing Company (Midtown) in St. Louis, Missouri.</p>
+                    <h1>Craftoberfest 2017 Vendor Application</h1>
+                    <p>This year's night market will be Thursday, October 12th, 2017 from 5-10PM at Urban Chestnut Brewing Company (Midtown) in St. Louis, Missouri.</p>
                 </div>
             </div>
         <div class="panel-body">
@@ -140,8 +140,8 @@
                     <select name="booth_pref" class="form-control">
                         <option value="">Please select one</option>
                         <option value="No Preference">I have no preference</option>
-                        <option value="Standard Booth">Standard Booth (6 ft table space) – $70</option>
-                        <option value="Premium Booth">Premium Booth (10x10 tent space) – $85</option>
+                        <option value="Standard Booth">Standard Booth (6 ft table space) – $85</option>
+                        <option value="Premium Booth">Premium Booth (10x10 tent space) – $100</option>
                     </select>
                     <p class="help-block"></p>
                     @if($errors->has('booth_pref'))
@@ -152,16 +152,9 @@
                 </div>
             </div>
             <div class="row">
-            <div class="col-xs-12 form-group <?php if ($errors->has('paypal_email')) print 'has-error';?>">
-                    {!! Form::label('paypal_email', '*PayPal email address', ['class' => 'control-label']) !!}
-                    <br>If accepted, you will receive a PayPal invoice for your vendor fee.
-                    {!! Form::text('paypal_email', old('paypal_email'), ['class' => 'form-control']) !!}
-                    <p class="help-block"></p>
-                    @if($errors->has('paypal_email'))
-                        <p class="help-block">
-                            {{ $errors->first('paypal_email') }}
-                        </p>
-                    @endif
+                <div class="col-xs-12 form-group">
+                  <label for="">Please add <a href="mailtoL craftoberfestnightmarker">craftoberfestnightmarket@gmail.com</a> to your contact list now so you don't miss any important announcements!</label>
+                  <input type="checkbox" id="addEmail" required > Ok, did it!
                 </div>
             </div>
         </div>
