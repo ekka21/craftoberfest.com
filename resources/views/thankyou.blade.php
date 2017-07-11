@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-       Craftoberfest 2016
+       Craftoberfest 2017
     </title>
 
     <meta http-equiv="X-UA-Compatible"
@@ -27,7 +27,7 @@
         <div class="container">
             <div class="content well">
 <h2>
-                Thank you for your application! Vendors will be notified by August 10th, 2016.
+                Thank you for your application! Vendors will be notified by August 10th, 2017.
 </h2>
             </div>
         </div>
