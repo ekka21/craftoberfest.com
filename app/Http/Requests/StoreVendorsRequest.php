@@ -29,7 +29,7 @@ class StoreVendorsRequest extends Request
             'email' => 'required|email',
             'prod_desc' => 'required',
             'booth_pref' => 'required',
-            'paypal_email' => 'required|email',
+            'add_email' => 'required',
 
         ];
     }

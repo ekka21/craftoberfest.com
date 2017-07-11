@@ -24,7 +24,7 @@ class CreateVendorsTable extends Migration
             $table->string("instagram");
             $table->text("prod_desc");
             $table->text("booth_pref");
-            $table->text("paypal_email");
+            $table->string("add_email");
 
             $table->timestamps();
             $table->softDeletes();
