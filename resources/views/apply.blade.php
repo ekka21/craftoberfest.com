@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-       Craftoberfest 2016
+       Craftoberfest 2017
     </title>
 
     <meta http-equiv="X-UA-Compatible"
@@ -154,6 +154,7 @@
             <div class="row">
                 <div class="col-xs-12 form-group">
                   <label for="">Please add <a href="mailtoL craftoberfestnightmarker">craftoberfestnightmarket@gmail.com</a> to your contact list now so you don't miss any important announcements!</label>
+                  <br>
                   <input type="checkbox" id="addEmail" name="add_email"> Ok, did it!
                 </div>
             </div>
